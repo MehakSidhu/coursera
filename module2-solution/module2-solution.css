@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin : 2% 7% 2% 7%;
+}
+h1{
+	text-align: center;
+
+}
+div{
+	float: right;
+	border: 1px solid black;
+	padding: 9px;
+}
+section{
+	border: 1px black solid;
+	background-color: #808080;
+	margin-bottom: 3%;
+}
+p{
+	clear: both;
+	padding: 3%;
+}
+#one{
+	background-color: #F48FB1;
+}
+#two{
+	background: #E53935;
+	color: #FFFFFF;
+}
+#three{
+	background: #FDD835;
+}
+@media screen and (min-width: 768px)
+{
+	body{
+		margin: 5% 0% 5% 2%;
+	}
+	h1{
+		margin-bottom: 4%;
+	}
+	.half{
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+	}
+	.full{
+		clear: both;
+		margin-right: 2%;
+	}
+}
+@media screen and (min-width: 992px)
+{
+	body{
+		margin: 2% 0% 8% 2%;
+	}
+	.half, .full{
+		width: 31%;
+		float: left;
+		clear: none;
+	}
+}
